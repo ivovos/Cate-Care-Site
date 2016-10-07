@@ -2,4 +2,6 @@
      User Global Variables
 *******************************/
 
-@fontName		: 'Lato';
+@fontName		: 'Open Sans';
+@emSize			: 18px;
+@fontSize 		: 18px;

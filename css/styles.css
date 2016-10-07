@@ -7,14 +7,18 @@ h1{
 	text-align:  center;
 }
 
+.intro p{
+	font-size: 1.25em;
+}
+
 h2{
-	text-align: center;
 	font-weight: lighter;
 	padding-bottom: 1em;
 }
 
 .masthead.ui.vertical.segment{
 	display: flex;
+	text-align: center;
 	background-image: url("/img/hero.jpg");
 	align-items: center;
 	background-size: cover;
@@ -28,7 +32,7 @@ h2{
 
 .ui.vertical.segment{
 	border-radius: 0px;
-	padding: 4em;
+	padding: 4em 0em;
 	box-shadow: none;
 	border: none;
 	border-bottom: none;
