@@ -2,44 +2,60 @@
 	box-sizing: border-box;
 }
 
-
-h1{
-	text-align:  center;
 }
 
-.intro p{
-	font-size: 1.25em;
-}
 
 h2{
 	font-weight: lighter;
 	padding-bottom: 1em;
+	font-weight: 600;
+	padding-bottom: .5em;
 }
+
+// MASTHEAD
+
+h1.title{
+	font-weight: 800;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+h2.subtitle{
+	font-weight: 100;
+	font-size: 1.4rem;
+	margin-top: 0;
+}
+
+.intro p{
+	font-size: 1.3em;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+
 
 .masthead.ui.vertical.segment{
 	display: flex;
-	text-align: center;
-	background-image: url("/img/hero.jpg");
+	background-image: url("/img/hero-duo.jpg");
 	align-items: center;
 	background-size: cover;
-	height: 65%;
+	height: 75%;
 }
 
 
 .intro{
-	text-align: center;
+	text-align: left;
 }
 
 .ui.vertical.segment{
 	border-radius: 0px;
-	padding: 4em 0em;
+	padding: 3em 0em;
 	box-shadow: none;
 	border: none;
 	border-bottom: none;
 }
 
-.bg-lightgrey {
-	background-color:  #f7f7f7 !important;
-}
+// .bg-lightgrey {
+// 	background-color:  #f7f7f7 !important;
+// }
 
 
