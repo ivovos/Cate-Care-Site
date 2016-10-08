@@ -2,6 +2,16 @@
      User Global Variables
 *******************************/
 
-@fontName		: 'Open Sans';
-@emSize			: 18px;
-@fontSize 		: 18px;
+@fontName		: 'Assistant';
+@emSize			: 20px;
+@fontSize 		: 20px;
+
+
+@h1 : 3.5rem;
+@h2 : 1rem;
+@h3 : 1.28rem;
+@h4 : 1.071rem;
+@h5 : 1rem;
+
+
+@lineHeight          : 1.6285em;
