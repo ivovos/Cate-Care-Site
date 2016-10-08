@@ -2,10 +2,7 @@
 	box-sizing: border-box;
 }
 
-}
-
-
-h2{
+h2 {
 	font-weight: lighter;
 	padding-bottom: 1em;
 	font-weight: 600;
@@ -14,23 +11,34 @@ h2{
 
 // MASTHEAD
 
-h1.title{
+.name {
+	color: #0000ff !important;
+}
+
+h1.title {
 	font-weight: 800;
 	margin-bottom: 0px;
 	text-align: center;
+	line-height: 1em;
 }
 
-h2.subtitle{
+h2.subtitle {
 	font-weight: 100;
 	font-size: 1.4rem;
 	margin-top: 0;
 }
 
-.intro p{
+p.emphasis {
 	font-size: 1.3em;
 	font-weight: 300;
 	line-height: 1.5em;
 }
+
+p {
+	font-weight: 300;
+	line-height: 1.5em;
+}
+
 
 
 .masthead.ui.vertical.segment{
