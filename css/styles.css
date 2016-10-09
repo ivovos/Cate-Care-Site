@@ -46,7 +46,8 @@ p {
 	// background-image: url("/img/hero-duo.jpg");
 	align-items: center;
 	background-size: cover;
-	height: 75%;
+	height: 10%;
+	margin-top:10em;
 }
 
 
