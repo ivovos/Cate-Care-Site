@@ -39,8 +39,6 @@ p {
 	line-height: 1.5em;
 }
 
-
-
 .masthead.ui.vertical.segment{
 	display: flex;
 	// background-image: url("/img/hero-duo.jpg");
@@ -49,7 +47,6 @@ p {
 	height: 10%;
 	margin-top:10em;
 }
-
 
 .intro{
 	text-align: left;
@@ -63,8 +60,9 @@ p {
 	border-bottom: none;
 }
 
-// .bg-lightgrey {
-// 	background-color:  #f7f7f7 !important;
-// }
 
+
+.ui.grid>.column:not(.row), .ui.grid>.row>.column{
+	padding-bottom: 1rem;
+}
 

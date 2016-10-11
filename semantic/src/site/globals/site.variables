@@ -7,9 +7,10 @@
 @fontSize 		: 20px;
 
 
+
 @h1 : 2.5rem;
 @h2 : 1rem;
-@h3 : 1.28rem;
+@h3 : 1rem;
 @h4 : 1.071rem;
 @h5 : 1rem;
 
